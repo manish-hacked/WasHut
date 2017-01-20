@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="club.cyberlabs.washut"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <uses-sdk
+        android:minSdkVersion=""
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="WasHut"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Dark1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Dark1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Order"
+            android:label="ORDERS"
+            android:theme="@style/AppTheme.Dark1">
+            <intent-filter>
+                <action android:name="android.intent.action.ORDER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Delivery"
+            android:label="ORDERS"
+            android:theme="@style/AppTheme.Dark1">
+            <intent-filter>
+                <action android:name="android.intent.action.DELIVERY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Complaint"
+            android:label="ORDERS"
+            android:theme="@style/AppTheme.Dark1">
+            <intent-filter>
+                <action android:name="android.intent.action.COMPLAINT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Suggestion"
+            android:label="ORDERS"
+            android:theme="@style/AppTheme.Dark1">
+            <intent-filter>
+                <action android:name="android.intent.action.SUGGESTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+        android:name=".Details"
+        android:label="ORDERS"
+        android:theme="@style/AppTheme.Dark1">
+        <intent-filter>
+            <action android:name="android.intent.action.DETAILS" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".List"
+            android:label="ORDERS"
+            android:theme="@style/AppTheme.Dark1">
+            <intent-filter>
+                <action android:name="android.intent.action.ORDERS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

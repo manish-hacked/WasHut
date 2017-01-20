@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WasHut</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_item_attachment">Take Order</string>
+    <string name="nav_item_images">Delivery</string>
+    <string name="nav_item_location">Guest Suggestion</string>
+    <string name="nav_sub_menu">Others</string>
+    <string name="nav_sub_menu_item01">Make A Complaint</string>
+    <string name="nav_sub_menu_item02">Edit Your Details</string>
+    <string name="drawer_header_text">WasHut</string>
+    <string name="second_activity_text">Manish Jaiswal</string>
+    <string name="title_activity_second">SecondActivity</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@drawable/image"
+    android:padding="16dp"
+    android:theme="@style/AppTheme.Dark"
+    android:gravity="bottom"
+    android:weightSum="100">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_weight="60"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/drawer_header_text"
+        android:textSize="25dp"
+        android:layout_weight="5"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="washut@gmail.com"
+        android:layout_weight="10"/>
+
+</LinearLayout>
